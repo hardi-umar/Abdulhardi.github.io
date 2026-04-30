@@ -199,11 +199,11 @@ img {
 
 .portrait-frame {
   margin: 0;
-  background: #fff;
-  border: 1px solid #e3e6ea;
-  border-radius: 14px;
-  padding: 0.6rem;
-  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.05);
+  background: linear-gradient(135deg, #0f2742, #2563eb);
+  border: 1px solid rgba(37, 99, 235, 0.24);
+  border-radius: 999px;
+  padding: 0.45rem;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
   width: min(320px, 100%);
 }
 
@@ -213,7 +213,7 @@ img {
   aspect-ratio: 5 / 6;
   object-fit: cover;
   object-position: center 16%;
-  border-radius: 10px;
+  border-radius: 999px;
   display: block;
 }
 
@@ -297,7 +297,8 @@ h3 {
 }
 
 .hero-links a {
-  color: var(--muted);
+  color: var(--accent);
+  font-weight: 600;
   border-bottom: 1px solid transparent;
 }
 
@@ -777,3 +778,5 @@ h3 {
     max-width: 320px;
   }
 }
+
+
