@@ -564,6 +564,54 @@ h3 {
   background: var(--accent);
 }
 
+.career-stack {
+  display: grid;
+  gap: 2.5rem;
+}
+
+.career-company {
+  padding-bottom: 1.4rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.career-company:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.career-company-header {
+  margin-bottom: 1.15rem;
+}
+
+.career-company-header h2 {
+  font-size: clamp(1.28rem, 2vw, 1.55rem);
+  margin-bottom: 0.35rem;
+}
+
+.career-location {
+  color: var(--muted);
+  font-size: 0.98rem;
+}
+
+.career-role {
+  margin-top: 1.25rem;
+}
+
+.career-role:first-of-type {
+  margin-top: 0;
+}
+
+.career-role h3 {
+  font-size: 1.02rem;
+  margin-bottom: 0.45rem;
+}
+
+.career-role p {
+  color: var(--muted);
+  line-height: 1.8;
+  margin: 0;
+}
+
 .chip-list li {
   padding: 0.45rem 0.72rem;
   border-radius: 999px;
