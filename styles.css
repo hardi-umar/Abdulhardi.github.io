@@ -13,7 +13,7 @@
   --radius-lg: 14px;
   --radius-md: 10px;
   --radius-sm: 8px;
-  --max: 1080px;
+  --max: 1160px;
 }
 
 * {
@@ -69,10 +69,10 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 1.4rem;
   max-width: var(--max);
   margin: 0 auto;
-  padding: 1rem 1.25rem;
+  padding: 1.15rem 1.5rem;
   background: rgba(248, 248, 247, 0.96);
   border-bottom: 1px solid rgba(221, 221, 218, 0.9);
 }
@@ -100,7 +100,7 @@ img {
 .site-nav {
   display: flex;
   align-items: center;
-  gap: 0.8rem;
+  gap: 1.45rem;
   padding: 0;
   flex-wrap: wrap;
   justify-content: flex-end;
@@ -108,7 +108,7 @@ img {
 
 .site-nav a {
   color: var(--muted);
-  padding: 0.25rem 0;
+  padding: 0.35rem 0;
   border-radius: 0;
   transition: color 0.24s ease, border-color 0.24s ease;
   border-bottom: 1px solid transparent;
@@ -144,7 +144,7 @@ img {
 .section {
   max-width: var(--max);
   margin: 0 auto;
-  padding: 4.5rem 1.25rem;
+  padding: 5.5rem 1.5rem;
 }
 
 .page-shell {
@@ -152,7 +152,7 @@ img {
 }
 
 .page-section {
-  padding-top: 5.25rem;
+  padding-top: 5.85rem;
 }
 
 .about-home {
@@ -160,8 +160,8 @@ img {
 }
 
 .page-intro {
-  max-width: 54rem;
-  margin-bottom: 2rem;
+  max-width: 46rem;
+  margin-bottom: 2.35rem;
 }
 
 .page-subsection {
@@ -188,13 +188,13 @@ img {
 .hero {
   display: grid;
   grid-template-columns: minmax(260px, 340px) minmax(0, 1.15fr);
-  gap: 4rem;
-  padding-top: 5.5rem;
+  gap: 5.25rem;
+  padding-top: 5.1rem;
   align-items: center;
 }
 
 .hero-home {
-  min-height: calc(100vh - 330px);
+  min-height: calc(100vh - 300px);
 }
 
 .hero-media {
@@ -239,7 +239,7 @@ h3 {
 }
 
 h1 {
-  font-size: clamp(2.1rem, 3.6vw, 3rem);
+  font-size: clamp(2.15rem, 3.5vw, 3.05rem);
   max-width: none;
   letter-spacing: -0.02em;
   color: #111827;
@@ -269,17 +269,28 @@ h3 {
 }
 
 .hero-role {
-  margin: 0.35rem 0 0;
-  font-size: 1rem;
+  margin: 0.18rem 0 0;
+  font-size: 0.98rem;
   line-height: 1.55;
   color: var(--muted);
   max-width: 44rem;
 }
 
 .hero-role-company {
-  margin-top: 1rem;
+  margin-top: 0;
   font-weight: 600;
   color: #374151;
+}
+
+.hero-subtitle {
+  margin-top: 0.9rem;
+  display: grid;
+  gap: 0.1rem;
+}
+
+.hero-text-intro {
+  max-width: 35rem;
+  margin-top: 1.5rem;
 }
 
 .cta-row,
@@ -292,7 +303,7 @@ h3 {
 }
 
 .cta-row {
-  margin-top: 1.5rem;
+  margin-top: 1.8rem;
 }
 
 .hero-links {
@@ -370,7 +381,7 @@ h3 {
 }
 
 .hero-copy {
-  max-width: 38rem;
+  max-width: 40rem;
 }
 
 .hero-copy h1 {
@@ -410,7 +421,7 @@ h3 {
 }
 
 .about-home-copy {
-  max-width: 72rem;
+  max-width: 68rem;
 }
 
 .about-home-title {
@@ -566,11 +577,11 @@ h3 {
 
 .career-stack {
   display: grid;
-  gap: 2.5rem;
+  gap: 3rem;
 }
 
 .career-company {
-  padding-bottom: 1.4rem;
+  padding-bottom: 1.8rem;
   border-bottom: 1px solid #e5e7eb;
 }
 
@@ -580,7 +591,7 @@ h3 {
 }
 
 .career-company-header {
-  margin-bottom: 1.15rem;
+  margin-bottom: 1.35rem;
 }
 
 .career-company-header h2 {
@@ -605,7 +616,7 @@ h3 {
 }
 
 .career-role {
-  margin-top: 1.25rem;
+  margin-top: 1.45rem;
 }
 
 .career-role:first-of-type {
@@ -853,7 +864,7 @@ h3 {
     flex-direction: column;
     align-items: stretch;
     border-radius: 12px;
-    padding: 0.65rem;
+    padding: 0.8rem;
     border: 1px solid var(--line);
     background: #fff;
   }
@@ -867,12 +878,12 @@ h3 {
   }
 
   .hero {
-    gap: 2rem;
-    padding-top: 4rem;
+    gap: 2.35rem;
+    padding-top: 4.25rem;
   }
 
   .page-section {
-    padding-top: 4rem;
+    padding-top: 4.6rem;
   }
 
   .about-home {
